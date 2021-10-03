@@ -5,7 +5,7 @@ This method doesn't need root access at all!
 
 ## Installation
 
-1. Download `busybox.sh` shell script command
+1. [Download shell script](https://github.com/HuskyDG/busybox-no-root/releases/download/v1.0/busybox.sh)
 2. Open **Terminal Emulator**, `cd` to your download directory, where `busybox.sh` is existing.
 3. Execute `busybox.sh` by type this command
 
