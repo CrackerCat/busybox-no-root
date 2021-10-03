@@ -36905,7 +36905,7 @@ AwAAAAAAAAAAAAAAr2YKAPkAAAAAAAAAAAAAAAEAAAAAAAAA
 
 [ -f "$HOME/bin/busybox" ] || abort "! Cannot push Busybox to directory"
 echo "- Set up permission..."
-chmod 777 busybox 2>/dev/null
+chmod 777 busybox 2>/dev/null; chmod 777 zip 2>/dev/null
 echo "- Create symlink from busybox..."
 ./busybox --list | while read applet; do ln -s busybox $applet 2>/dev/null; done
 echo "- Done!"
