@@ -10,7 +10,7 @@ This method doesn't need root access at all!
 3. Execute `busybox.sh` by type this command
 
 ```
-sh ./busybox
+sh ./busybox.sh
 ```
 
 Where Busybox will be installed: `$HOME/bin`
